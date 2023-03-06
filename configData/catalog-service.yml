@@ -4,15 +4,15 @@ server:
 spring:
   application:
     name: catalog-service
-  jpa:
-    hibernate.ddl-auto: update
-    generate-ddl: true
-    show-sql: true
-  datasource:
-    url: jdbc:mysql://localhost:3306/catalog-service
-    username: root
-    password: root
-    driver-class-name: com.mysql.cj.jdbc.Driver
+#  jpa:
+#    hibernate.ddl-auto: update
+#    generate-ddl: true
+#    show-sql: true
+#  datasource:
+#    url: jdbc:mysql://localhost:3306/catalog-service
+#    username: root
+#    password: root
+#    driver-class-name: com.mysql.cj.jdbc.Driver
 
 eureka:
   instance:
