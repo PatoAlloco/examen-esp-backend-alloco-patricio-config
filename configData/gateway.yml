@@ -17,11 +17,11 @@ spring:
         - id: msapimovie
           uri: lb://api-movie
           predicates:
-              - Path=/api/v1/movies/**
+            - Path=/api/v1/movies/**
         - id: msapiserie
-            uri: lb://api-serie
-            predicates:
-              - Path=/api/v1/series/**
+          uri: lb://api-serie
+          predicates:
+            - Path=/api/v1/series/**
 
 info:
   app:
